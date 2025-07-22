@@ -1,0 +1,59 @@
+/* CSS Variables - カラーパレット */
+:root {
+  /* カラーパレット */
+  --bg-primary: #eff0f3; /* 背景色 */
+  --text-headline: #0d0d0d; /* 見出し */
+  --text-paragraph: #2a2a2a; /* 本文 */
+  --accent-primary: #ff8e3c; /* アクセント（オレンジ） */
+  --accent-secondary: #d9376e; /* アクセント（ピンク） */
+  --surface-white: #fffffe; /* 白背景 */
+  --stroke-color: #0d0d0d; /* 線・境界線 */
+
+  /* レスポンシブブレイクポイント */
+  --mobile-max: 767px;
+  --desktop-min: 768px;
+  --desktop-hd: 1920px;
+
+  /* スペーシング */
+  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-sm: 1rem; /* 16px */
+  --spacing-md: 1.5rem; /* 24px */
+  --spacing-lg: 2rem; /* 32px */
+  --spacing-xl: 3rem; /* 48px */
+  --spacing-xxl: 4rem; /* 64px */
+
+  /* フォントサイズ */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  --font-size-4xl: 2rem; /* 32px */
+
+  /* シャドウ */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.18);
+
+  /* ボーダーラジアス */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 50%;
+
+  /* アニメーション */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* ダークモード対応（将来的な拡張用） */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* ダークモード時のカラー設定は必要に応じて追加 */
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "vue.codeActions.enabled": false,
+  "vue.complete.casing.status": false,
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.suggest.autoImports": false,
+  "typescript.validate.enable": false,
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false
+}
